@@ -8,7 +8,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
-    "secret"=>"6LdVejMhAAAAALnlLKNX8ojuhXG58sjGLjBTkK6N",
+    "secret"=>"secret_key_on_github_dont_do_this",
     "response"=>$_POST["g-recaptcha-response"],
     "remoteip"=>$_SERVER["REMOTE_ADDR"]
 )));
